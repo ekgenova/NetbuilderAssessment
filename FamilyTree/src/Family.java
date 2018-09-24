@@ -2,12 +2,10 @@ import java.util.ArrayList;
 
 public class Family {
 	
-	private String name;
 	private ArrayList<Person> members;
 	private ArrayList<String> empty = new ArrayList<String>();
 	
-	public Family(String name) {
-		this.name = name;
+	public Family() {
 		members = new ArrayList<Person>();
 	}
 	
